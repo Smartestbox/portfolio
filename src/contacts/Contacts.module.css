@@ -1,0 +1,21 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: #776078;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    background-color: #c1be91;
+}
+
+.contactsForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 280px;
+}

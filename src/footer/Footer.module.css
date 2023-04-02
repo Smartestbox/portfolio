@@ -1,0 +1,27 @@
+.footer {
+    background-color: cadetblue;
+    height: 30vh;
+}
+
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96%;
+}
+
+.socialRefs {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    border: 1px solid;
+}
+
+.socialRef {
+    background-color: chartreuse;
+    height: 30px;
+    width: 30px;
+}
+
+.fullName {
+    background-color: chartreuse;
+}
