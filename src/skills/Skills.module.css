@@ -15,10 +15,16 @@
 
 .skills {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    gap: 10px;
     border: 1px solid;
     width: 100%;
     text-align: center;
 }
 
+@media screen and (max-width: 1210px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,51 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    text-align: center;
+    background-color: $bgColor;
+    .projectImgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        background-color: #c1be91;
+        background-size: cover;
+        background-position: center;
+        transition: 0.2s;
+        &:hover {
+            filter: brightness(70%);
+        }
+        .projectBtn {
+            text-decoration: none;
+            background-color: $primaryColor;
+            width: 70px;
+            height: 30px;
+            line-height: 30px;
+            color: $textColor;
+            cursor: pointer;
+            vertical-align: center;
+        }
+    }
+    .projectInfo {
+        padding: 25px 20px;
+        .projectTitle {
+            @include text(('Open Sans', sans-serif), 16px, 1.2);
+            letter-spacing: 1px;
+            margin: 0 0 5px;
+        }
+        .description {
+            @include text(('Open Sans', sans-serif), 14px, 1.8);
+            font-weight: 400;
+        }
+    }
+}
+
+
+
+

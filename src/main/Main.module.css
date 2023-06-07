@@ -4,13 +4,13 @@
 }
 
 .greeting {
-    width: 300px;
+    min-width: 316px;
     background-color: rgb(255, 144, 89);
     color: white;
 }
 
 .photo {
-    width: 300px;
+    min-width: 316px;
     height: 400px;
     background-color: rgb(255, 144, 89);
 }
